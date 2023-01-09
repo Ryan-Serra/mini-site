@@ -13,14 +13,6 @@
     --font-destaque:'Bebas Neue', cursive;  
      --font-android: 'android',cursive;
  }
- @media(max-width:435px){
-   .responsivo{
-      display: inline;
-   }
-  nav{
-   display: none;
-  }
- }
 
  
  *{
@@ -57,24 +49,6 @@ nav{
    background-color: var(--cor5);
    padding: 10px;
 }
-.responsivo{
-   display: none;
-   background-color: var(--cor5);
-   padding: 10px;
-}
-.responsivo>a{
-   text-decoration: none;
-   padding: 10px;
-   color :var(--cor1);
-   font-weight: bold;
-   transition-duration: 0.8s;
-   border-radius: 5px ;
-}
-.responsivo>a:hover{
-   background-color:var(--cor3);
-   color: var(--cor5);
-}
-
 nav>a{
    text-decoration: none;
    padding: 10px;
