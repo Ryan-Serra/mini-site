@@ -5,76 +5,20 @@
     --titulo:'Sriracha' , cursive;
     --p:'Passion One' , cursive;
 }
-@media(max-width:800px){
-    body{
-        font-size:1.3em;
-        width: 700px;
-    }
-    header{
-        width: 760px;
-    }
-    main{
-        width: 600px;
-        background-color: blue;
-    }
-    main img{
-        width: 100%;
-    }
-    @media(max-width:650px ){
-        body{
-            font-size:1.3em;
-            width:550px;
-        }
-        header{
-            width: 610px ;
-        }
-        main{
-        width: 450px;
-        }
-        main img{
-            width: 100%;
-        }
-    }
-    @media(max-width:500px) {
-        body{
-            font-size:1.3em;
-            width: 400px;
-        }
-        header{
-            width:460px
-        }
-        main{
-            width: 300px
-        }
-        main img{
-            width:100%;
-        }
-        
-    }
-    @media(max-width:435px){
-        body{
-            font-size:1.3em;
-            width: 335px; 
-        }
-        header{
-            width: 395px; 
-        }
-        main{
-            width:320px;}
-        main img{
-                width:100%;
-            }
-            
-    }
-
+*{
+    margin: 0px;
+    padding: 0px;
 }
 body{
+    width: 100%;
     background-color: var(--cor0);
 }
 header{
     color: white;
     background-color: black;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    min-height: 120px; 
     text-align: center;
 }
 header h1 {
@@ -82,7 +26,9 @@ header h1 {
 }
 main{
     margin: auto;
-    width: 800px;
+    width: 100%;
+    min-width: 300px;
+    max-width: 1000px; 
     background-color: white;
 }
 main pre{
@@ -91,9 +37,9 @@ main pre{
     font-weight: bold;
     font-size: 1.1em;
     margin:auto;
-    width:800px;
+   
     line-height: 2em;
 }
 main img {
-    width:100% ;
-}
+    width: 100%;
+    max-width: 800px ;}
