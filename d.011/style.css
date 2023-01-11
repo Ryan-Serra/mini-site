@@ -7,27 +7,58 @@
 }
 @media(max-width:800px){
     body{
+        font-size:1.3em;
         width: 700px;
     }
     header{
-        width: 700px;
+        width: 760px;
     }
     main{
         width: 600px;
         background-color: blue;
     }
     main img{
-        width: 600px;
+        width: 100%;
     }
     @media(max-width:650px ){
         body{
-            width:500px;
+            font-size:1.3em;
+            width:550px;
+        }
+        header{
+            width: 610px ;
         }
         main{
-        width: 400px;
+        width: 450px;
         }
         main img{
+            width: 100%;
+        }
+    }
+    @media(max-width:500px) {
+        body{
+            font-size:1.3em;
             width: 400px;
+        }
+        header{
+            width:460px
+        }
+        main{
+            width: 300px
+        }
+        
+    }
+    @media(max-width:435px){
+        body{
+            font-size:1.3em;
+            width: 335px; 
+        }
+        header{
+            width: 395px; 
+        }
+        main{
+            width:320px;
+
         }
     }
 
