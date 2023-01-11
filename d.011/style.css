@@ -46,6 +46,9 @@
         main{
             width: 300px
         }
+        main img{
+            width:100%;
+        }
         
     }
     @media(max-width:435px){
@@ -57,9 +60,11 @@
             width: 395px; 
         }
         main{
-            width:320px;
-
-        }
+            width:320px;}
+        main img{
+                width:100%;
+            }
+            
     }
 
 }
