@@ -60,3 +60,21 @@ main img{
     
     max-width: 800px ;
 }
+.img{
+    background-position: right top;
+    width: 100vh;
+    height: 100vh;
+    background-image: url(imagens/background003.jpg);
+    max-height: 470px;
+    max-width: 800px;
+}
+.text{
+    padding-top: 20px;
+    background-color: red;
+    background-position: center center;
+    color: white;
+    height: 100vh;
+    width: 100vh;
+    max-height:250px;
+    max-width: 300px;
+}
