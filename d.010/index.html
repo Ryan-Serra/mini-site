@@ -7,7 +7,7 @@
     <title>Como surgiu o mascote do android</title>
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
-   <script src="menu.js"></script>
+  
 </head>
 <body>
     <header>
@@ -21,15 +21,16 @@
         <a href="#">Fale Conosco</a> 
          
     </nav> 
-     <nav class="menu">
+    <div class="menu-icon" onclick="ClickMenu()">
+        <img class="buguer" src="imagens/menu_black_24dp.svg">
+    </div> 
+    <nav class="menu">
         <a href="#">Home</a>
         <a href="#">Noticias</a>          
         <a href="#">Curiosidades</a>
         <a href="#">Fale Conosco</a>
      </nav>
-     <div class="menu-icon" onclick="ClickMenu()">
-        <img class="buguer" src="imagens/menu_black_24dp.svg">
-    </div>
+     
      <main>
          <article>
              <h1>
@@ -103,4 +104,5 @@
      </main>
         <footer>Site criado por Ryan Serra meu <a href="https://github.com/Ryan-Serra" target="_blank">portifolio</a></footer>
 </body>
+<script src="menu.js"></script>
 </html>
