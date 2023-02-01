@@ -74,9 +74,12 @@ nav>a:hover{
    background-color: white;
 }
 .menu{
+   position: absolute;
+   overflow: hidden;
+   width: 200px;
+   height: 150px;
    display: none;
   color:white;
-   background-color:var(--cor5) ;
 }
 .menu a {
    display: block
