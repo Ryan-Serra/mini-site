@@ -20,6 +20,15 @@
 .menu-icon .buguer{
    display: block;
 }
+@media (min-width:441px) {
+   .menu{
+      display: none;
+   }
+    .menu-icon .buguer {
+      display: none;
+    }
+   
+}
 }
  
  *{
