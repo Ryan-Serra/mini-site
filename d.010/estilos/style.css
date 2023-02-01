@@ -78,6 +78,12 @@ nav>a:hover{
   color:white;
    background-color:var(--cor5) ;
 }
+.menu a {
+   display: block
+}
+.menu a:hover{
+   background-color: var(--cor1);
+}
 .menu-icon{
    
    background-color: var(--cor5);
